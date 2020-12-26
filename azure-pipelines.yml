@@ -27,4 +27,4 @@ stages:
         repository: 'aspnet'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        tags: '5.0-bionic'
+        tags: '5.0-bionic,latest'
