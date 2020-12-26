@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'DockerHub'
-        repository: 'aspnet'
+        repository: 'alexfdezsauco/aspnet'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: '5.0-bionic,latest'
