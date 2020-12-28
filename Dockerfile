@@ -7,3 +7,4 @@ RUN wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-p
 RUN dpkg -i packages-microsoft-prod.deb
 RUN apt update  -y
 RUN apt install -y aspnetcore-runtime-5.0
+ENV DOTNET_RUNNING_IN_CONTAINER=true
